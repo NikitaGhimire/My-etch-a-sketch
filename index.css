@@ -1,0 +1,31 @@
+.main-grid{
+  display: grid;
+  gap: 0;
+  width: 960px;
+  margin: 0 auto;
+  justify-content: center; 
+}
+
+
+.grid-item{
+  background: white;
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+  margin-left: 1px;
+  padding: 50%;
+  
+}
+
+
+.js-create-grid{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
